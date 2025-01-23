@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pagination{
+ text-align: center;
+ background-color: blueviolet;
+ color: white;
+ padding: 5px;
+}
+
+.product-list{
+    text-align: center;
+}
+
+.pagination-buttons{
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.pagination-buttons>button{
+    padding: 10px 20px;
+    border: none;
+   border-radius: 10px;
+}
